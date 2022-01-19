@@ -1,0 +1,107 @@
+@charset "utf-8";
+
+			body{
+				background-color: darkgrey;
+				font-family: 'Roboto', sans-serif;
+				font-size: 12px;
+				padding-top: 20px;
+				padding-right: 500px;
+				padding-bottom: 120px;
+				padding-left: 500px;
+
+			}
+
+			#publicacion{
+				background-color: whitesmoke;
+				position: fixed;
+				width: 400px;
+				height: 660px;
+				margin: auto;
+				display: inline-block;
+				text-align: justify;
+				justify-content: center;
+				box-sizing: border-box;
+			}
+
+			.cintillo1{
+				background-color: whitesmoke;
+				position: static;
+				font-size: 15px;
+				font-weight: 2;
+				width: 400px;
+				height: 50px;
+			}
+
+			#icon-left{
+				position: absolute;
+				top: 10px;
+				left: 5px;
+				float: left;
+				display: block;
+				margin: 10px;
+			}
+
+			#title{
+				position: absolute;
+				top: 10px;
+				left: 40px;
+				font-stretch: 10px;
+				font-size: 14px;
+			}
+
+			#icon-right{
+				position:  absolute;
+				top: 10px;
+				left: 370px;
+				float: right;
+				display: block;
+				margin: 10px;
+			}
+
+
+			#image{
+				position: relative;
+				width: 400px;
+			}
+
+			img{
+				width: 400px;
+				height: 300px;
+			}
+
+			.cintillo2{
+
+			}
+
+			#icons-left{
+				position: absolute;
+				float: left;
+				display: block;
+				margin: 10px;
+			}
+
+			#icons-right{
+				position: absolute;
+				left: 370px;
+				float: right;
+				display: block;
+				margin: 10px;
+			}
+
+			#likes{
+				position: absolute;
+				padding-left: 10px;
+				float: left;
+				margin-left: 0px;
+				margin-top: 10px;
+			}
+
+			#coments{
+				position: absolute;
+				padding-left: 10px;
+				padding-right: 10px;
+				float: left;
+				margin-left: 0px;
+				margin-top: 10px;
+			}
+
